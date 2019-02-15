@@ -1,0 +1,27 @@
+#db模块参数
+MAX_SCORE = 100
+MIN_SCORE = 0
+INITIAL_SCORE = 20
+REDIS_HOST = 'localhost'
+REDIS_PORT = '6379'
+REDIS_PASSWORD = None
+REDIS_KEY = 'proxies'
+
+#api
+API_HOST = 'localhost'
+API_PORT = 5000
+
+#tester模块
+VALID_STATUS_CODE = [200]
+TEST_URL = 'http://www.baicu.com'
+BATCH_TEST_SIZE = 50
+
+#getter
+POOL_UPPER_THRESHOLD = 50
+
+#scheduler模块参数
+TESTER_CYCLE = 10
+GETTER_CYCLE = 300
+TESTER_ENABLED = True
+GETTER_ENABLED = True
+API_ENABLED = True
